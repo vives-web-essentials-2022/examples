@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+}
+
+article, section {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+article {
+    /* width: 200px; */
+    flex: 1;
+}

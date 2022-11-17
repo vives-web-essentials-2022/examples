@@ -1,0 +1,33 @@
+
+
+
+h1 {
+    color: blue;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+section div {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        color: red;
+    }
+    section { 
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    section { 
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
